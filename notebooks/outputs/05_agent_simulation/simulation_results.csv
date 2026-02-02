@@ -1,176 +1,414 @@
 cluster_id,persona_name,decision,response,scenario_name
-0,Mainstream Shopper,Unclear,"[MOCK MODE] As a typical weekday shopper, I'd consider this purchase carefully. I usually buy what I need and move on. Given this scenario, I'd likely proceed if it meets my specific need and the price is reasonable.
+0,Mainstream Shopper,No,"DECISION: No
 
-Scenario received: You're looking at a smartphone priced at R$1,200. 
-The seller offers 10x installments of R$120 with ...",financing_offer
-1,Weekend Buyer,Unclear,"[MOCK MODE] I typically browse on weekends when I have time. This seems interesting, but I'd want to think it over during my weekend shopping time.
+REASONING: This smartphone is way outside my typical spending range - at R$1,200, it's nearly 17 times what I normally spend per purchase. Even with the installment option breaking it down to R$120 per month, that's still more than my entire usual purchase amount. While I appreciate credit card flexibility, this would be a major departure from my careful, modest spending habits.
 
-Scenario received: You're looking at a smartphone priced at R$1,200. 
-The seller offers 10x installments of R$120 with ...",financing_offer
-2,Cash Customer,Unclear,"[MOCK MODE] I prefer to pay upfront with boleto. If this requires installments or credit, I'd hesitate. I don't like carrying debt for purchases.
+KEY FACTORS:
+• Price far exceeds my normal R$71 purchase range - this represents a significant financial stretch
+• Even the monthly installments (R$120) are higher than my typical total order value
+• The 10% boleto discount doesn't make it affordable enough to justify such a large expense
+• Good reviews are reassuring, but price is the primary barrier for my budget-conscious shopping style",financing_offer
+1,Weekend Buyer,No,"DECISION: No
 
-Scenario received: You're looking at a smartphone priced at R$1,200. 
-The seller offers 10x installments of R$120 with ...",financing_offer
-3,High-Value Financing Shopper,Unclear,"[MOCK MODE] I'm comfortable with larger purchases when I can spread payments. If 10x installments are available, the monthly cost matters more than total price.
+REASONING: This smartphone is way beyond my typical spending range - at R$1,200, it's nearly 14 times what I usually spend per purchase (R$86). Even though the credit card installments would break it down to R$120 per month, that's still more than my entire average order value, and I prefer to keep my purchases simple and affordable. The 4.2-star rating is decent, but not exceptional enough to justify such a significant departure from my normal spending habits.
 
-Scenario received: You're looking at a smartphone priced at R$1,200. 
-The seller offers 10x installments of R$120 with ...",financing_offer
-4,Bulk Buyer,Unclear,"[MOCK MODE] I prefer to bundle purchases together. If there's a deal for buying multiple, I'd be more interested. Single items feel less efficient to me.
+KEY FACTORS:
+• Price is far too high compared to my typical R$86 purchases
+• Monthly installments of R$120 exceed my usual total order value
+• Not an impulse buy I'd make during weekend browsing
+• Would require a major budget adjustment that doesn't align with my shopping patterns
+• Good reviews, but not outstanding enough to warrant the premium price",financing_offer
+2,Cash Customer,No,"DECISION: No
 
-Scenario received: You're looking at a smartphone priced at R$1,200. 
-The seller offers 10x installments of R$120 with ...",financing_offer
-5,Loyal Explorer Customer,Unclear,"[MOCK MODE] I'm always open to trying new categories. As a repeat customer, I trust this marketplace and would consider exploring this option.
+REASONING: At R$1,080 with the boleto discount, this smartphone is still way beyond what I typically spend - that's nearly 12 times my usual purchase amount of R$89. Even though I appreciate the upfront payment discount and would definitely choose boleto over installments, this purchase is simply too expensive for my budget and shopping patterns.
 
-Scenario received: You're looking at a smartphone priced at R$1,200. 
-The seller offers 10x installments of R$120 with ...",financing_offer
-6,Critical Shopper,Unclear,"[MOCK MODE] I have high standards. Before deciding, I'd want to see the reviews carefully. If there are quality concerns, I'd pass regardless of the price.
+KEY FACTORS:
+• Price point far exceeds my typical spending range (R$1,080 vs my usual R$89)
+• While I prefer the boleto option due to my cash-only payment style, the total cost is still prohibitive
+• Good reviews are appealing, but can't justify such a large expense
+• Would need to find a more budget-friendly smartphone option that better fits my spending habits",financing_offer
+3,High-Value Financing Shopper,Yes,"DECISION: Yes
 
-Scenario received: You're looking at a smartphone priced at R$1,200. 
-The seller offers 10x installments of R$120 with ...",financing_offer
-0,Mainstream Shopper,Unclear,"[MOCK MODE] As a typical weekday shopper, I'd consider this purchase carefully. I usually buy what I need and move on. Given this scenario, I'd likely proceed if it meets my specific need and the price is reasonable.
+REASONING: This smartphone fits perfectly with my shopping approach - I can afford the R$120 monthly payments which makes this high-quality item accessible without straining my budget. The 4.2-star rating gives me confidence in the product quality, and I appreciate having financing options that let me get what I need now while managing my cash flow.
 
-Scenario received: FLASH SALE: A kitchen blender you've been eyeing is now 40% off!
-Original price: R$250 → Sale price:...",flash_sale
-1,Weekend Buyer,Unclear,"[MOCK MODE] I typically browse on weekends when I have time. This seems interesting, but I'd want to think it over during my weekend shopping time.
+KEY FACTORS:
+• Monthly payment of R$120 is manageable within my budget constraints
+• No-interest installments make the financing cost-effective compared to paying upfront
+• Good product ratings (4.2 stars) indicate quality that justifies the investment
+• Credit card installment option aligns with my preferred payment method (98% usage)
+• The 10x installment plan spreads the cost comfortably over time
 
-Scenario received: FLASH SALE: A kitchen blender you've been eyeing is now 40% off!
-Original price: R$250 → Sale price:...",flash_sale
-2,Cash Customer,Unclear,"[MOCK MODE] I prefer to pay upfront with boleto. If this requires installments or credit, I'd hesitate. I don't like carrying debt for purchases.
+I would definitely choose the 10x installments of R$120 over the boleto discount. Even though the upfront payment saves R$120, I prefer keeping that cash available for other needs and using the interest-free financing to make this purchase work within my monthly budget.",financing_offer
+4,Bulk Buyer,Maybe,"DECISION: Maybe
 
-Scenario received: FLASH SALE: A kitchen blender you've been eyeing is now 40% off!
-Original price: R$250 → Sale price:...",flash_sale
-3,High-Value Financing Shopper,Unclear,"[MOCK MODE] I'm comfortable with larger purchases when I can spread payments. If 10x installments are available, the monthly cost matters more than total price.
+REASONING: At R$1,200, this phone is significantly higher than my typical purchase range, but the 10x installment option makes it more manageable at R$120 per month. I'd need to think carefully about whether I really need this upgrade right now, especially since I tend to be practical about my purchases and focus on getting good value.
 
-Scenario received: FLASH SALE: A kitchen blender you've been eyeing is now 40% off!
-Original price: R$250 → Sale price:...",flash_sale
-4,Bulk Buyer,Unclear,"[MOCK MODE] I prefer to bundle purchases together. If there's a deal for buying multiple, I'd be more interested. Single items feel less efficient to me.
+KEY FACTORS:
+• Price point is much higher than my usual spending patterns (R$82 average item price)
+• 10x installments align well with my credit card usage preference and typical installment behavior
+• The boleto discount is attractive (R$120 savings), but the upfront payment of R$1,080 would be a major expense for me
+• Good reviews (4.2 stars) give me confidence in the product quality
+• I'd want to bundle this with other needed items like a case or screen protector to make the most of this larger purchase
+• Need to evaluate if this is truly necessary or if I'm being influenced by the convenient payment terms",financing_offer
+5,Loyal Explorer Customer,No,"DECISION: No
 
-Scenario received: FLASH SALE: A kitchen blender you've been eyeing is now 40% off!
-Original price: R$250 → Sale price:...",flash_sale
-5,Loyal Explorer Customer,Unclear,"[MOCK MODE] I'm always open to trying new categories. As a repeat customer, I trust this marketplace and would consider exploring this option.
+REASONING: This smartphone is way outside my typical spending range - at R$1,200, it's nearly five times what I usually spend on a single item (around R$106). Even though the installment option makes it more manageable at R$120 per month, that's still a significant commitment that would impact my ability to make my usual diverse purchases across different categories. While I appreciate good deals and the reviews are decent, this just doesn't fit my shopping pattern of moderate spending across various needs.
 
-Scenario received: FLASH SALE: A kitchen blender you've been eyeing is now 40% off!
-Original price: R$250 → Sale price:...",flash_sale
-6,Critical Shopper,Unclear,"[MOCK MODE] I have high standards. Before deciding, I'd want to see the reviews carefully. If there are quality concerns, I'd pass regardless of the price.
+KEY FACTORS:
+• Price point is 11x higher than my average item purchase (R$106)
+• R$120 monthly installments would consume too much of my budget for other category exploration
+• Total cost represents nearly half my annual marketplace spending (R$257 lifetime spend ÷ 2.1 orders)
+• While I use credit cards and installments regularly, this commitment is disproportionate to my typical purchase behavior
+• I prefer maintaining flexibility to shop across different categories rather than committing to one expensive item",financing_offer
+6,Critical Shopper,No,"DECISION: No
 
-Scenario received: FLASH SALE: A kitchen blender you've been eyeing is now 40% off!
-Original price: R$250 → Sale price:...",flash_sale
-0,Mainstream Shopper,Unclear,"[MOCK MODE] As a typical weekday shopper, I'd consider this purchase carefully. I usually buy what I need and move on. Given this scenario, I'd likely proceed if it meets my specific need and the price is reasonable.
+REASONING: This smartphone is way beyond what I typically spend - at R$1,200, it's more than 13 times my usual purchase amount of R$89. Even with the 10% boleto discount bringing it to R$1,080, this represents a massive financial commitment that doesn't align with my shopping patterns. While the reviews seem decent at 4.2 stars, I need products that truly exceed expectations, and I'm skeptical about making such a large investment.
 
-Scenario received: You need to buy replacement ink cartridges for your printer.
-Single cartridge: R$45 each
-Bundle of 3...",bundle_deal
-1,Weekend Buyer,Unclear,"[MOCK MODE] I typically browse on weekends when I have time. This seems interesting, but I'd want to think it over during my weekend shopping time.
+KEY FACTORS:
+• Price far exceeds my typical spending range (R$1,200 vs my usual R$89)
+• Represents too large a financial risk given my conservative purchasing behavior
+• 4.2 stars isn't compelling enough to justify such a significant expense
+• My history shows I prefer single, focused purchases rather than major investments
+• Would likely require installment payments beyond my comfort zone (10x vs my usual 2.2)",financing_offer
+0,Mainstream Shopper,Yes,"DECISION: Yes
 
-Scenario received: You need to buy replacement ink cartridges for your printer.
-Single cartridge: R$45 each
-Bundle of 3...",bundle_deal
-2,Cash Customer,Unclear,"[MOCK MODE] I prefer to pay upfront with boleto. If this requires installments or credit, I'd hesitate. I don't like carrying debt for purchases.
+REASONING: At R$150, this blender fits well within my typical spending range, and I can easily put it on my credit card to spread the payment over a couple of months. Since I actually need a blender and the reviews are solid, this feels like a practical purchase rather than an impulse buy. The 40% discount makes it a good value for something I was already considering.
 
-Scenario received: You need to buy replacement ink cartridges for your printer.
-Single cartridge: R$45 each
-Bundle of 3...",bundle_deal
-3,High-Value Financing Shopper,Unclear,"[MOCK MODE] I'm comfortable with larger purchases when I can spread payments. If 10x installments are available, the monthly cost matters more than total price.
+KEY FACTORS:
+• Price point (R$150) aligns with my usual purchase amounts
+• Can use credit card with installment options to manage payment
+• Positive reviews (4.5 stars) give me confidence in the purchase
+• It's something I genuinely need, not just a want
+• Significant discount (40% off) makes it feel like good value",flash_sale
+1,Weekend Buyer,Yes,"DECISION: Yes
 
-Scenario received: You need to buy replacement ink cartridges for your printer.
-Single cartridge: R$45 each
-Bundle of 3...",bundle_deal
-4,Bulk Buyer,Unclear,"[MOCK MODE] I prefer to bundle purchases together. If there's a deal for buying multiple, I'd be more interested. Single items feel less efficient to me.
+REASONING: At R$150, this blender fits well within my typical purchase range, and I can easily put it on my credit card to spread the payment over a few months. Since I actually need a blender and the reviews are solid, this feels like a practical purchase rather than an impulse buy. The time pressure doesn't bother me much since I'm shopping during my weekend leisure time anyway.
 
-Scenario received: You need to buy replacement ink cartridges for your printer.
-Single cartridge: R$45 each
-Bundle of 3...",bundle_deal
-5,Loyal Explorer Customer,Unclear,"[MOCK MODE] I'm always open to trying new categories. As a repeat customer, I trust this marketplace and would consider exploring this option.
+KEY FACTORS:
+• Price point aligns with my usual spending (R$150 vs my average R$86)
+• Can use credit card with installment options to manage payment
+• Genuine need for the product, not just a want
+• Strong reviews (4.5 stars) give me confidence in quality
+• Shopping on weekend when I have time to make thoughtful decisions",flash_sale
+2,Cash Customer,No,"DECISION: No
 
-Scenario received: You need to buy replacement ink cartridges for your printer.
-Single cartridge: R$45 each
-Bundle of 3...",bundle_deal
-6,Critical Shopper,Unclear,"[MOCK MODE] I have high standards. Before deciding, I'd want to see the reviews carefully. If there are quality concerns, I'd pass regardless of the price.
+REASONING: Even with the 40% discount, R$150 is still a significant expense that I wasn't budgeted for today. I prefer to make planned purchases when I have the money set aside, rather than making impulsive decisions based on time pressure. If I truly need a blender, I can find similar deals or save up for one when I'm financially prepared.
 
-Scenario received: You need to buy replacement ink cartridges for your printer.
-Single cartridge: R$45 each
-Bundle of 3...",bundle_deal
-0,Mainstream Shopper,Unclear,"[MOCK MODE] As a typical weekday shopper, I'd consider this purchase carefully. I usually buy what I need and move on. Given this scenario, I'd likely proceed if it meets my specific need and the price is reasonable.
+KEY FACTORS: 
+• Unplanned purchase - wasn't in my budget for today
+• R$150 is still a substantial amount for me to spend spontaneously
+• Time pressure tactics don't align with my careful spending approach
+• I can wait and find the product at a reasonable price when I'm ready to buy
+• Prefer to pay with boleto/debit when I have funds allocated, not rush into purchases",flash_sale
+3,High-Value Financing Shopper,Maybe,"DECISION: Maybe
 
-Scenario received: You've never bought fitness equipment online before, but you see an ad:
-Adjustable dumbbells set for...",new_category
-1,Weekend Buyer,Unclear,"[MOCK MODE] I typically browse on weekends when I have time. This seems interesting, but I'd want to think it over during my weekend shopping time.
+REASONING: At R$150, I could split this into 3-4 comfortable monthly payments of around R$40-50 each, which fits my budget well. The positive reviews and the fact that I genuinely need a blender make this worthwhile, but I'm hesitant about the pressure tactics of a flash sale - good products don't usually need artificial urgency to sell.
 
-Scenario received: You've never bought fitness equipment online before, but you see an ad:
-Adjustable dumbbells set for...",new_category
-2,Cash Customer,Unclear,"[MOCK MODE] I prefer to pay upfront with boleto. If this requires installments or credit, I'd hesitate. I don't like carrying debt for purchases.
+KEY FACTORS:
+• Monthly payment would be manageable with installments (around R$40-50/month)
+• Strong reviews (4.5 stars) indicate quality, which justifies the investment
+• Genuine need for the product, not an impulse purchase
+• Skeptical of the 2-hour deadline - feels like manufactured pressure
+• Price point aligns with my typical spending on quality items",flash_sale
+4,Bulk Buyer,Yes,"DECISION: Yes
 
-Scenario received: You've never bought fitness equipment online before, but you see an ad:
-Adjustable dumbbells set for...",new_category
-3,High-Value Financing Shopper,Unclear,"[MOCK MODE] I'm comfortable with larger purchases when I can spread payments. If 10x installments are available, the monthly cost matters more than total price.
+REASONING: At R$150, this blender fits well within my typical purchase range, and the 40% discount makes it an excellent value. Since I've been needing a blender anyway and tend to bundle my purchases, this gives me a good reason to check what else I might need from this seller or marketplace to make the most of my shopping session.
 
-Scenario received: You've never bought fitness equipment online before, but you see an ad:
-Adjustable dumbbells set for...",new_category
-4,Bulk Buyer,Unclear,"[MOCK MODE] I prefer to bundle purchases together. If there's a deal for buying multiple, I'd be more interested. Single items feel less efficient to me.
+KEY FACTORS: 
+• The sale price of R$150 aligns with my average item spending of R$82 (reasonable for a quality appliance)
+• 40% discount represents genuine savings on something I actually need
+• Positive reviews (4.5 stars) give me confidence in the purchase quality
+• Time pressure pushes me to act now rather than overthink it
+• This could anchor a larger order if I find other items I need from the same seller",flash_sale
+5,Loyal Explorer Customer,Yes,"DECISION: Yes
 
-Scenario received: You've never bought fitness equipment online before, but you see an ad:
-Adjustable dumbbells set for...",new_category
-5,Loyal Explorer Customer,Unclear,"[MOCK MODE] I'm always open to trying new categories. As a repeat customer, I trust this marketplace and would consider exploring this option.
+REASONING: At R$150, this blender fits well within my typical purchase range, and the 40% discount makes it a solid value. Since I've actually needed a blender and the reviews are strong at 4.5 stars, this feels like the right time to buy rather than risk missing out on a good deal for something I'll actually use.
 
-Scenario received: You've never bought fitness equipment online before, but you see an ad:
-Adjustable dumbbells set for...",new_category
-6,Critical Shopper,Unclear,"[MOCK MODE] I have high standards. Before deciding, I'd want to see the reviews carefully. If there are quality concerns, I'd pass regardless of the price.
+KEY FACTORS:
+• Price point aligns with my spending comfort zone (R$150 vs my avg R$106 items)
+• Strong product reviews (4.5 stars) reduce purchase risk
+• Genuine need for the product - not an impulse buy
+• Significant discount (40% off) creates good value proposition
+• Time pressure is manageable - 2 hours is enough to decide confidently",flash_sale
+6,Critical Shopper,No,"DECISION: No
 
-Scenario received: You've never bought fitness equipment online before, but you see an ad:
-Adjustable dumbbells set for...",new_category
-0,Mainstream Shopper,Unclear,"[MOCK MODE] As a typical weekday shopper, I'd consider this purchase carefully. I usually buy what I need and move on. Given this scenario, I'd likely proceed if it meets my specific need and the price is reasonable.
+REASONING: Even at 40% off, R$150 is still above my typical spending range of around R$89 per purchase. While I do need a blender, I'm not comfortable making impulsive decisions based on artificial time pressure, especially when it means exceeding my usual budget. I'd rather wait and find a more affordable option that better fits my spending patterns.
 
-Scenario received: You found the exact wireless earbuds you want at R$180.
-However, the reviews are mixed: 3.5 stars ov...",mixed_reviews
-1,Weekend Buyer,Unclear,"[MOCK MODE] I typically browse on weekends when I have time. This seems interesting, but I'd want to think it over during my weekend shopping time.
+KEY FACTORS:
+• Price still exceeds my typical purchase amount even with discount
+• Discomfort with pressure tactics and rushed decision-making
+• Preference for planned purchases rather than impulse buying
+• Need to stay within my established spending habits
+• Skepticism about whether this is truly the best deal available",flash_sale
+0,Mainstream Shopper,Yes,"DECISION: Yes (Single cartridge)
 
-Scenario received: You found the exact wireless earbuds you want at R$180.
-However, the reviews are mixed: 3.5 stars ov...",mixed_reviews
-2,Cash Customer,Unclear,"[MOCK MODE] I prefer to pay upfront with boleto. If this requires installments or credit, I'd hesitate. I don't like carrying debt for purchases.
+REASONING: I'll go with the single cartridge for R$45. While the bundle saves 15%, I prefer to buy exactly what I need right now rather than tie up extra money in inventory I might not use for months. I can always come back and buy another cartridge when I actually need it, and I like keeping my purchases focused and immediate.
 
-Scenario received: You found the exact wireless earbuds you want at R$180.
-However, the reviews are mixed: 3.5 stars ov...",mixed_reviews
-3,High-Value Financing Shopper,Unclear,"[MOCK MODE] I'm comfortable with larger purchases when I can spread payments. If 10x installments are available, the monthly cost matters more than total price.
+KEY FACTORS:
+• Immediate need vs. uncertain future demand - I only definitely need one now
+• Cash flow preference - R$45 today is better than R$115 for uncertain future needs
+• Simple, focused purchasing - I prefer buying what I need when I need it
+• Risk of waste - the other cartridges might expire or become incompatible before I use them",bundle_deal
+1,Weekend Buyer,Yes,"DECISION: Yes (single cartridge)
 
-Scenario received: You found the exact wireless earbuds you want at R$180.
-However, the reviews are mixed: 3.5 stars ov...",mixed_reviews
-4,Bulk Buyer,Unclear,"[MOCK MODE] I prefer to bundle purchases together. If there's a deal for buying multiple, I'd be more interested. Single items feel less efficient to me.
+REASONING: I'll go with the single cartridge for R$45. While the bundle saves 15%, I prefer not to tie up extra money in cartridges I might not need for months - that R$70 difference could be better used elsewhere right now. Plus, I like keeping my purchases simple and focused on immediate needs.
 
-Scenario received: You found the exact wireless earbuds you want at R$180.
-However, the reviews are mixed: 3.5 stars ov...",mixed_reviews
-5,Loyal Explorer Customer,Unclear,"[MOCK MODE] I'm always open to trying new categories. As a repeat customer, I trust this marketplace and would consider exploring this option.
+KEY FACTORS:
+• Cash flow preference - keeping that extra R$70 available for other purchases
+• Uncertainty about future needs - ""might need"" isn't compelling enough for me to buy ahead
+• Simple transaction approach - I buy what I need when I need it
+• Weekend shopping mindset - this is a quick, targeted purchase to solve today's problem",bundle_deal
+2,Cash Customer,Unclear,"DECISION: Single cartridge
 
-Scenario received: You found the exact wireless earbuds you want at R$180.
-However, the reviews are mixed: 3.5 stars ov...",mixed_reviews
-6,Critical Shopper,Unclear,"[MOCK MODE] I have high standards. Before deciding, I'd want to see the reviews carefully. If there are quality concerns, I'd pass regardless of the price.
+REASONING: I'll buy just the one cartridge I need right now for R$45. While the bundle saves 15%, I prefer not to tie up R$115 when I'm not sure I'll need the other cartridges soon. I'd rather pay as I go and keep my cash available for other necessities.
 
-Scenario received: You found the exact wireless earbuds you want at R$180.
-However, the reviews are mixed: 3.5 stars ov...",mixed_reviews
-0,Mainstream Shopper,Unclear,"[MOCK MODE] As a typical weekday shopper, I'd consider this purchase carefully. I usually buy what I need and move on. Given this scenario, I'd likely proceed if it meets my specific need and the price is reasonable.
+KEY FACTORS:
+• Cash flow preference - I like paying only for what I need immediately
+• Uncertainty about future needs - ""might need"" in 3-6 months isn't definite enough
+• Avoiding upfront commitments - R$115 is a significant amount to spend on uncertain future needs
+• My printer could break or I might find a better deal later",bundle_deal
+3,High-Value Financing Shopper,Yes,"DECISION: Yes (Bundle of 3)
 
-Scenario received: It's Tuesday, and you see a promotion:
-'WEEKEND SPECIAL: 20% off all home decor items, Saturday-Sund...",weekend_promo
-1,Weekend Buyer,Unclear,"[MOCK MODE] I typically browse on weekends when I have time. This seems interesting, but I'd want to think it over during my weekend shopping time.
+REASONING: The bundle makes financial sense since I can spread the R$115 cost across several months with my credit card installments, making it only about R$19 per month. Even though I might not need all three cartridges immediately, the 15% savings is significant, and I know I'll eventually use them - printers always need ink. The quality will be consistent across all cartridges, which matters more to me than the upfront cost difference.
 
-Scenario received: It's Tuesday, and you see a promotion:
-'WEEKEND SPECIAL: 20% off all home decor items, Saturday-Sund...",weekend_promo
-2,Cash Customer,Unclear,"[MOCK MODE] I prefer to pay upfront with boleto. If this requires installments or credit, I'd hesitate. I don't like carrying debt for purchases.
+KEY FACTORS:
+• Ability to finance the R$115 bundle with installment payments, reducing monthly impact
+• 15% savings (R$20) makes the investment worthwhile for eventual use
+• Ink cartridges are a necessity item I'll definitely need over time
+• Single higher-value purchase aligns with my typical buying pattern
+• Quality consistency across the bundle ensures reliable performance",bundle_deal
+4,Bulk Buyer,Yes,"DECISION: Yes (Bundle of 3)
 
-Scenario received: It's Tuesday, and you see a promotion:
-'WEEKEND SPECIAL: 20% off all home decor items, Saturday-Sund...",weekend_promo
-3,High-Value Financing Shopper,Unclear,"[MOCK MODE] I'm comfortable with larger purchases when I can spread payments. If 10x installments are available, the monthly cost matters more than total price.
+REASONING: The bundle makes perfect sense for me - I'm getting three cartridges for R$115 versus paying R$135 if I bought them separately, saving me R$20. Since I know I'll need them eventually and I prefer to buy everything I need in one go rather than making multiple purchases, this bulk option fits my shopping style perfectly. The 15% savings and the convenience of having them on hand when needed outweigh any concerns about tying up the extra money now.
 
-Scenario received: It's Tuesday, and you see a promotion:
-'WEEKEND SPECIAL: 20% off all home decor items, Saturday-Sund...",weekend_promo
-4,Bulk Buyer,Unclear,"[MOCK MODE] I prefer to bundle purchases together. If there's a deal for buying multiple, I'd be more interested. Single items feel less efficient to me.
+KEY FACTORS:
+• 15% cost savings (R$20) makes the bulk purchase financially attractive
+• Aligns with my preference to bundle purchases together rather than shop repeatedly
+• Eliminates future shopping trips and ensures I have supplies when needed
+• The total amount (R$115) fits within my typical spending range per transaction",bundle_deal
+5,Loyal Explorer Customer,Yes,"DECISION: Yes (I'll buy the bundle of 3)
 
-Scenario received: It's Tuesday, and you see a promotion:
-'WEEKEND SPECIAL: 20% off all home decor items, Saturday-Sund...",weekend_promo
-5,Loyal Explorer Customer,Unclear,"[MOCK MODE] I'm always open to trying new categories. As a repeat customer, I trust this marketplace and would consider exploring this option.
+REASONING: The 15% savings on the bundle makes financial sense, and since I know I'll need the cartridges eventually, buying ahead saves money in the long run. At R$115, this fits within my typical spending range, and I can spread the cost over 3-4 installments on my credit card to make it more manageable.
 
-Scenario received: It's Tuesday, and you see a promotion:
-'WEEKEND SPECIAL: 20% off all home decor items, Saturday-Sund...",weekend_promo
-6,Critical Shopper,Unclear,"[MOCK MODE] I have high standards. Before deciding, I'd want to see the reviews carefully. If there are quality concerns, I'd pass regardless of the price.
+KEY FACTORS:
+• 15% discount represents good value - saves R$20 compared to buying individually
+• Ink cartridges don't expire quickly, so buying ahead is practical
+• Can use credit card installments to spread the R$115 cost over several months
+• Avoids future shopping trips and potential price increases
+• Falls within my comfortable spending range for practical purchases",bundle_deal
+6,Critical Shopper,No,"DECISION: No (to the bundle) - I would buy the single cartridge
 
-Scenario received: It's Tuesday, and you see a promotion:
-'WEEKEND SPECIAL: 20% off all home decor items, Saturday-Sund...",weekend_promo
+REASONING: I need one cartridge now, so I'll buy exactly what I need for R$45. While the bundle saves 15%, I'm not certain I'll need the other cartridges in 3-6 months, and tying up an extra R$70 for uncertain future needs doesn't make sense for my budget. I prefer to make targeted purchases when I actually need items.
+
+KEY FACTORS:
+• Immediate need vs. uncertain future demand - only need one cartridge right now
+• Cash flow preference - R$45 now is better than R$115 upfront for uncertain savings
+• Risk of waste - what if my printer breaks or I switch printers before using the extra cartridges?
+• Buying behavior - I typically purchase single items as needed rather than stocking up",bundle_deal
+0,Mainstream Shopper,Maybe,"DECISION: Maybe
+
+REASONING: The price point is significantly higher than my typical purchases, which makes me hesitant since I usually spend around R$71 per order. However, I trust this marketplace from my positive electronics purchases, and the 4.3-star reviews give me confidence in the product quality. I'd need to think about whether I can justify this larger expense for something I'm just considering.
+
+KEY FACTORS: 
+• Price is nearly 4x my usual spending, creating budget concerns
+• Strong trust in the platform based on successful electronics purchases
+• Good product reviews (4.3 stars) align with my preference for reliable products
+• Uncertainty about my commitment to home fitness makes the investment feel risky
+• Would likely use credit card with installment payments to make it more manageable",new_category
+1,Weekend Buyer,Maybe,"DECISION: Maybe
+
+REASONING: The price point of R$280 is significantly higher than my typical purchase of R$86, which makes me hesitant since I usually stick to smaller, single-item purchases. However, since this marketplace has worked well for my electronics purchases and the product has solid 4.3-star reviews, I trust the platform's reliability. I'd probably wait for the weekend to research this more thoroughly when I have proper time to browse and compare options.
+
+KEY FACTORS:
+• Price is much higher than my usual spending range - need to consider if it's worth the investment
+• Strong review rating (4.3 stars) gives me confidence in product quality
+• Previous positive experience with electronics on this platform builds trust
+• Weekend timing would be better for making such a significant purchase decision
+• Fitness equipment is a new category for me, so I'd want to research thoroughly before committing",new_category
+2,Cash Customer,Maybe,"DECISION: Maybe
+
+REASONING: R$280 is a significant purchase for me - about three times what I usually spend per order. I'd need to make sure I can pay with boleto and have the full amount available upfront since I don't use credit cards or installments. The good reviews and my positive experience with electronics from this platform give me confidence, but I'd want to research the specific product more thoroughly first.
+
+KEY FACTORS: 
+• Price point is much higher than my typical R$89 purchases - need to ensure I can afford it without financing
+• Must be able to pay with boleto or debit card (no credit/installments)
+• Platform reliability based on my successful electronics purchases gives me confidence
+• Good star rating (4.3) aligns with my expectation for quality products
+• Fitness equipment is a new category for me - would need to verify product specifications and return policy",new_category
+3,High-Value Financing Shopper,Yes,"DECISION: Yes
+
+REASONING: At R$280, I can break this into 6-8 monthly installments of around R$35-47, which fits comfortably in my budget for something I'll use regularly. The 4.3-star reviews give me confidence in the quality, and since this platform has delivered on my electronics purchases before, I trust they'll handle fitness equipment just as well.
+
+KEY FACTORS:
+• Affordable monthly payments through installment financing make it accessible
+• Strong review rating (4.3 stars) indicates good quality - worth paying for something that works
+• Proven track record with this marketplace from my electronics purchases
+• Single high-value item purchase aligns with my typical shopping pattern
+• Home fitness investment makes financial sense compared to ongoing gym costs",new_category
+4,Bulk Buyer,Yes,"DECISION: Yes
+
+REASONING: At R$280, this is a reasonable investment that fits within my typical spending range, and since I'm already comfortable with this marketplace from my electronics purchases, I trust the platform. The 4.3-star rating gives me confidence in the product quality, and if I'm going to start working out at home, I might as well get proper equipment that will last rather than buying cheaper items separately later.
+
+KEY FACTORS:
+• Price point aligns with my usual purchase amounts (around R$200+ range)
+• Strong trust in the marketplace based on successful electronics purchases
+• Good review rating (4.3 stars) indicates quality product
+• Bulk purchase mentality - better to get complete equipment set now rather than piecemeal later
+• Can likely use installment payments to spread the cost over a few months",new_category
+5,Loyal Explorer Customer,Yes,"DECISION: Yes
+
+REASONING: Since this marketplace has consistently delivered on my electronics purchases, I trust it can handle fitness equipment too. The R$280 price point fits my typical spending range, and the 4.3-star reviews give me confidence that other customers have been satisfied. I can use my credit card and spread the payment across installments to make it more manageable.
+
+KEY FACTORS:
+• Proven track record with this marketplace on previous electronics purchases
+• Price aligns with my budget and can be paid in installments
+• Strong customer reviews (4.3 stars) reduce purchase risk
+• Opportunity to explore a new product category on a platform I already trust
+• Home fitness aligns with my practical needs",new_category
+6,Critical Shopper,No,"DECISION: No
+
+REASONING: R$280 is more than three times what I typically spend on a single purchase, and I don't have experience with fitness equipment quality online. Given that I tend to be critical when products don't meet my expectations, I'm not willing to risk that much money on something I can't physically test first. The high price point combined with my unfamiliarity with this product category makes this too risky for my shopping style.
+
+KEY FACTORS:
+• Price is significantly above my usual R$89 spending range
+• No hands-on experience with fitness equipment purchases online
+• High risk of disappointment given my critical standards for product quality
+• Single expensive purchase doesn't match my typical buying pattern of lower-cost items",new_category
+0,Mainstream Shopper,No,"DECISION: No
+
+REASONING: At R$180, these earbuds are well above my typical spending range of around R$71 per purchase, and the mixed reviews with specific connectivity issues are a red flag. While I appreciate having a return policy as backup, I prefer purchases that work reliably from the start rather than dealing with potential problems and returns.
+
+KEY FACTORS:
+• Price point is significantly higher than my usual purchase range
+• Mixed reviews (3.5 stars) indicate inconsistent quality, especially with Bluetooth connectivity issues
+• I value products that work as expected without hassle - connectivity problems would be frustrating
+• Even with a 30-day return policy, I'd rather avoid the inconvenience of having to return a defective product
+• As someone who leaves positive reviews when satisfied, these mixed ratings suggest I might not be happy with the purchase",mixed_reviews
+1,Weekend Buyer,No,"DECISION: No
+
+REASONING: At R$180, these earbuds are double my typical purchase amount, and the mixed reviews with connectivity issues are concerning. Since I typically buy single items and expect them to work reliably, spending this much on something with known technical problems doesn't align with my shopping approach. I'd rather find a more affordable option with better reviews that I can purchase confidently with my credit card.
+
+KEY FACTORS:
+• Price is significantly higher than my usual R$86 average purchase
+• Mixed 3.5-star reviews indicate inconsistent product quality
+• Bluetooth connectivity issues could create ongoing frustration
+• 30-day return policy helps but doesn't eliminate the hassle of potential returns
+• My preference for straightforward purchases that work as expected",mixed_reviews
+2,Cash Customer,No,"DECISION: No
+
+REASONING: At R$180, these earbuds are a significant purchase for me, and I can't justify the risk with mixed reviews mentioning connectivity issues. I prefer to buy products I'm confident will work properly since I pay upfront with boleto and want to avoid the hassle of returns. I'd rather wait and save up for a more reliable option with better reviews.
+
+KEY FACTORS:
+• Mixed 3.5-star reviews create too much uncertainty for this price point
+• Bluetooth connectivity issues could make the product unusable for its main purpose
+• At R$180, this represents a substantial expense that I need to be sure about
+• Even with a 30-day return policy, I prefer to avoid the return process entirely
+• My payment method (boleto) means I pay the full amount upfront with no flexibility",mixed_reviews
+3,High-Value Financing Shopper,Yes,"DECISION: Yes
+
+REASONING: At R$180, I can spread this across 6-8 installments making it very manageable monthly. The positive reviews specifically mention good sound quality, which is what I care about most, and the 30-day return policy gives me protection if the Bluetooth issues are deal-breakers. I'd rather pay a bit more for the exact product I want than settle for something cheaper that might not meet my needs.
+
+KEY FACTORS:
+• Monthly payment of R$25-30 through installments makes this affordable
+• Sound quality praised in positive reviews aligns with my quality expectations
+• 30-day return policy reduces my risk if connectivity issues are problematic
+• These are the exact earbuds I want - worth paying for the right product
+• Mixed reviews are manageable when I have return protection",mixed_reviews
+4,Bulk Buyer,Yes,"DECISION: Yes
+
+REASONING: At R$180, these earbuds fit within my budget for a quality purchase, and since I tend to buy multiple items when shopping, I can justify the expense as part of a larger order. The 30-day return policy provides adequate protection against the connectivity issues mentioned in reviews, and the positive feedback on sound quality suggests the core functionality is solid.
+
+KEY FACTORS:
+• 30-day return policy minimizes my risk if connectivity problems arise
+• Sound quality praise in positive reviews indicates good core performance
+• Price point aligns with my preference for moderate-value purchases
+• Can bundle this with other needed items to make the shopping trip worthwhile
+• Mixed reviews (3.5 stars) align with my realistic expectations - I don't need perfection, just functionality",mixed_reviews
+5,Loyal Explorer Customer,Yes,"DECISION: Yes
+
+REASONING: At R$180, these earbuds are priced reasonably within my typical spending range, and the 30-day return policy gives me confidence to try them out. While the 3.5-star rating isn't ideal, the fact that positive reviews specifically mention good sound quality - which is what matters most to me in earbuds - makes it worth the risk. I'm comfortable making this purchase knowing I can return them if the Bluetooth issues prove problematic.
+
+KEY FACTORS:
+• 30-day return policy provides safety net for this purchase
+• Price point of R$180 fits comfortably within my typical spending patterns
+• Positive reviews specifically highlight sound quality, which is my primary concern
+• Mixed reviews create some hesitation, but the return option mitigates the risk
+• As someone who shops across different categories, I'm willing to try new products when there's purchase protection",mixed_reviews
+6,Critical Shopper,No,"DECISION: No
+
+REASONING: With mixed 3.5-star reviews and specific mentions of Bluetooth connectivity issues, these earbuds don't meet my standards for a R$180 purchase. I don't have tolerance for products that might not work properly, especially when connectivity problems could make them essentially useless. While the return policy offers some protection, I'd rather find a more reliable option than deal with potential hassles.
+
+KEY FACTORS:
+• Below-average review rating (3.5 stars) signals quality concerns
+• Bluetooth connectivity issues are a deal-breaker for wireless earbuds
+• R$180 is a significant purchase that needs to work reliably from day one
+• Even with return policy, I prefer avoiding the inconvenience of returns
+• My high standards mean I won't settle for products with known problems",mixed_reviews
+0,Mainstream Shopper,Yes,"DECISION: Yes
+
+REASONING: I'll buy the lamp now at full price rather than wait for the weekend discount. The R$24 savings isn't worth disrupting my weekday shopping routine, and I prefer to handle my purchases during the week when I'm already focused on getting things done. Getting it by Thursday means I can enjoy it sooner without having to think about shopping on the weekend.
+
+KEY FACTORS:
+• Weekday shopping fits my routine better than weekend purchases
+• R$120 is within my typical spending range for single items
+• I can use my credit card and spread payments if needed
+• Getting the item sooner has more value to me than the 20% discount
+• I prefer to keep weekends free from shopping decisions",weekend_promo
+1,Weekend Buyer,Maybe,"DECISION: Maybe
+
+REASONING: I'm definitely interested since this aligns perfectly with my weekend shopping habits - that's when I naturally browse and make purchases anyway. The 20% discount is appealing given my budget-conscious spending patterns, but I need to think about whether I actually need this lamp right now or if it's just an impulse buy triggered by the promotion.
+
+KEY FACTORS:
+• Weekend timing matches my natural shopping behavior perfectly
+• 20% discount (R$24 savings) is meaningful for my typical purchase amounts
+• Can use my preferred credit card payment method during the weekend sale
+• Need to evaluate if this is a planned purchase or just promotional temptation
+• Delayed delivery isn't a concern since I'm not in a rush for non-essential items",weekend_promo
+2,Cash Customer,Maybe,"DECISION: Maybe
+
+REASONING: I'm interested in the lamp, but R$120 is a significant purchase for me. The 20% discount would save me R$24, which is meaningful to my budget. However, I prefer to shop on weekdays and pay immediately with boleto or debit when I'm ready to buy, rather than waiting for weekend promotions.
+
+KEY FACTORS:
+• The R$24 savings represents good value, but I'd need to shop on the weekend which isn't my preferred time
+• R$120 is a substantial amount for me - I need to be sure this purchase fits my budget
+• I prefer to buy when I'm ready to pay upfront immediately, not wait for sales
+• The delayed delivery doesn't bother me since I'm not an impulse buyer
+• I'll likely wait and see if I still want it by Saturday - if so, the savings would be worth adjusting my shopping routine",weekend_promo
+3,High-Value Financing Shopper,Yes,"DECISION: Yes
+
+REASONING: I'll buy the lamp now at full price rather than wait for the weekend discount. The R$24 savings isn't worth the inconvenience of weekend shopping when I can break this into comfortable monthly payments right now. Getting it by Thursday means I can enjoy it immediately, and at R$120 spread across several installments, the cost is very manageable.
+
+KEY FACTORS:
+• Can finance the R$120 across multiple installments, making the full price affordable
+• Prefer shopping on weekdays rather than dealing with weekend crowds
+• The R$24 discount (20%) isn't significant enough to change my payment comfort level
+• Immediate delivery (Thursday) has value over waiting until next week
+• This is exactly the type of specific item purchase I make - I know what I want",weekend_promo
+4,Bulk Buyer,No,"DECISION: No
+
+REASONING: While R$24 savings sounds appealing, waiting until the weekend doesn't align with how I shop - I prefer making purchases when I actually need them, not based on promotional timing. At R$120, this single lamp is a bit pricey for my typical spending patterns, and I'd rather bundle it with other home items I need to make the purchase more worthwhile.
+
+KEY FACTORS:
+• Promotional timing conflicts with my weekday shopping preference
+• Single item purchase doesn't match my bulk buying behavior
+• Price point is above my typical item range - would prefer to bundle with other necessities
+• Weekend shopping promotions don't motivate me since I rarely shop on weekends anyway",weekend_promo
+5,Loyal Explorer Customer,Maybe,"DECISION: Maybe
+
+REASONING: I'm tempted by the 20% savings since I'm always looking for good value, but waiting until the weekend isn't ideal for me since I don't have a strong preference for weekend shopping. The R$24 discount is decent, but not huge enough to make me completely change my timing preferences. I'd probably wait if it's not urgent, but if I really need the lamp this week, I'd just buy it now.
+
+KEY FACTORS:
+• The R$24 savings (20% off) is meaningful but not overwhelming for my budget
+• I don't typically plan my purchases around weekends, so this timing feels slightly inconvenient
+• Delivery timing matters - getting it Thursday vs. next week could influence my decision based on actual need
+• At R$96 discounted, it fits well within my typical spending range for individual items
+• As someone who shops across different categories, I appreciate when retailers offer targeted promotions like this",weekend_promo
+6,Critical Shopper,No,"DECISION: No
+
+REASONING: R$96 is still too much for a decorative item that I don't absolutely need right now. I prefer to spend my money on essentials rather than home decor, especially when I'm not even sure the quality will meet my standards. The discount doesn't change the fact that this isn't a priority purchase for me.
+
+KEY FACTORS:
+• Price point exceeds my typical spending comfort zone even with discount
+• Decorative lamp is a non-essential item - I buy what I need, not what looks nice
+• Past experience tells me to be cautious about product quality, especially for discretionary purchases
+• Would rather save the R$96 for something more practical and necessary",weekend_promo
