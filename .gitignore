@@ -14,3 +14,9 @@ FEATURE_ENG_CONTEXT.md
 
 # Environment
 .env
+
+# Local docs
+PHASE4.md
+
+# Notebook outputs
+notebooks/outputs/
