@@ -46,31 +46,47 @@ This approach mirrors Blok's methodology: grounding synthetic user agents in rea
    unzip -o ./data/raw/brazilian-ecommerce.zip -d ./data/raw
    ```
 
-## High-Level Workflow
+## Workflow
 
-### Phase 1: Behavioral Clustering
-Extract behavioral patterns from transaction data and identify distinct customer archetypes through unsupervised clustering.
+### Phase 1: Exploratory Data Analysis
+[`01_eda_behavioral_clustering.ipynb`](notebooks/01_eda_behavioral_clustering.ipynb)
 
-### Phase 2: Persona Profiling
-Characterize each cluster with representative statistics and behavioral tendencies, then generate natural language persona descriptions.
+Explore the raw transaction data to understand distributions, identify behavioral signals, and assess data quality. Examines purchase patterns, payment methods, review behavior, and delivery outcomes.
 
-### Phase 3: Agent Instantiation
-Build persona agents using the Claude API, initializing each with its persona profile to guide decision-making behavior.
+### Phase 2: Feature Engineering
+[`02_feature_engineering_clustering.ipynb`](notebooks/02_feature_engineering_clustering.ipynb)
 
-### Phase 4: Scenario-Based Simulation
-Test persona agents against product scenarios and compare responses across behavioral archetypes.
+Transform raw transactions into customer-level behavioral features: purchase frequency, monetary value, basket size, installment usage, credit card preference, category diversity, review sentiment, and shopping timing.
+
+### Phase 3: Clustering
+[`03_clustering.ipynb`](notebooks/03_clustering.ipynb)
+
+Apply K-means clustering to identify distinct behavioral segments. Evaluate cluster quality using elbow method and silhouette scores. Final model: 7 clusters across 93,357 customers.
+
+### Phase 4: Persona Profiling
+[`04_persona_profiling.ipynb`](notebooks/04_persona_profiling.ipynb)
+
+Characterize each cluster with representative statistics and z-scores. Generate natural language persona descriptions and decision heuristics. Output: structured persona profiles with LLM-ready system prompts.
+
+### Phase 5: Agent Simulation
+[`05_agent_simulation.ipynb`](notebooks/05_agent_simulation.ipynb)
+
+Instantiate Claude-powered agents from persona profiles. Run 6 product scenarios across all 7 personas (42 simulations). Validate that agent responses align with underlying behavioral profiles.
+
+## Results
+
+- **7 distinct personas** derived from real behavioral patterns (e.g., "High-Value Financing Shopper", "Critical Shopper", "Cash Customer")
+- **100% validation alignment** — personas respond consistently with their cluster characteristics
+- **Clear differentiation** — Critical Shopper rejected 6/6 scenarios; High-Value Financing Shopper accepted 5/6
 
 ## Scope
 
-**Included**: Clustering pipeline, persona profiling, Claude API agent instantiation, scenario simulation
-**Out of scope**: Production deployment, real-time backtesting, multi-agent interactions
+**Included**: EDA, feature engineering, clustering pipeline, persona profiling, Claude API agent instantiation, scenario simulation, validation framework
+
+**Out of scope**: Production deployment, real-time backtesting, multi-agent interactions, calibration against historical conversion rates
 
 ## Why This Matters for Behavioral Simulation
 
 Static personas are descriptive; agent-based personas are *generative*. By grounding LLM agents in empirically-derived behavioral clusters, we can predict responses to novel scenarios, explore counterfactuals before committing engineering resources, and identify edge-case behaviors that might respond unpredictably to standard interventions.
 
 Customer clustering becomes the foundation for a simulation engine that can compress weeks of A/B testing into hours of agent-based experimentation.
-
----
-
-**Status**: Repository initialized. Implementation to follow.
