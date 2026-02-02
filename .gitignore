@@ -11,3 +11,6 @@ process.pdf
 FEATURE_ENG_CONTEXT.md
 
 .DS_Store
+
+# Environment
+.env
