@@ -133,15 +133,22 @@ Please respond with:
 
     def _extract_decision(self, response: str) -> str:
         """Extract decision from structured response."""
+        import re
         response_lower = response.lower()
 
-        # Look for explicit decision markers
-        if "decision: yes" in response_lower or "decision: [yes]" in response_lower:
-            return "Yes"
-        elif "decision: no" in response_lower or "decision: [no]" in response_lower:
-            return "No"
-        elif "decision: maybe" in response_lower or "decision: [maybe]" in response_lower:
-            return "Maybe"
+        # Look for explicit decision markers (handles markdown bold, brackets, etc.)
+        # Matches: "DECISION: Yes", "**DECISION:** No", "DECISION: [Maybe]", etc.
+        decision_pattern = r'\*{0,2}decision\*{0,2}[:\s]+\[?(\w+)\]?'
+        match = re.search(decision_pattern, response_lower)
+
+        if match:
+            decision = match.group(1)
+            if decision in ('yes', 'y'):
+                return "Yes"
+            elif decision in ('no', 'n'):
+                return "No"
+            elif decision in ('maybe', 'uncertain', 'unsure'):
+                return "Maybe"
 
         # Fallback: look for keywords in first 200 chars
         first_part = response_lower[:200]
